@@ -1,24 +1,15 @@
-# README
+# クレカ登録アプリについての学び
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+１、「seedファイル」とは、あらかじめデータを用意出来るファイルのこと
 
-Things you may want to cover:
+２、「PAY.JP」とは、クレジットカード決済処理を持ったアプリケーションを開発できるサービスのこと
 
-* Ruby version
+３、「トークン」とは、PAY.JPからカード情報を引き出す際に必要なパスワードのこと
 
-* System dependencies
+４、「Chargeオブジェクト」とは、PAY.JP側であらかじめ用意されている支払い情報を生成するオブジェクトのこと
 
-* Configuration
+５、「Customerオブジェクト」とは、PAY.JP側であらかじめ用意されている顧客を管理するためのオブジェクトのこと
 
-* Database creation
+６、「payjp.js」とは、カード情報をトークン化してくれるライブラリのこと
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+７、「member」とは、URIにid情報を含むことが出来るツールのこと
